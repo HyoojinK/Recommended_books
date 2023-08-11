@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.4.0/css/all.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>추천도서 BEST</h1>
+    </header>
+    <section>
+      <div id="content">
+        <!-- <li>
+          <div><img src="./images/book1.jpg" alt="1번표지" />
+          <p>요약</p></div>
+          <div>제목</div>
+          <div>저자</div>
+          <div>출판사</div>
+          <div>출판일</div>
+          <div>가격</div>
+          <div>요약</div>
+        </li>
+      --></div>
+
+      <div id="addlist">
+        <form action="#">
+          <div class="nobook">
+            <i class="fa-regular fa-lightbulb"></i> 찾으시는 책이 없나요?
+          </div>
+          <div class="inputbox">
+            <div class="inputtitle">추가할 책을 입력해주세요</div>
+            <p>
+              <lable>책제목</lable>
+              <input type="text" id="subject" />
+            </p>
+            <p>
+              <lable>저자</lable>
+              <input type="text" id="addauthor" />
+            </p>
+            <p>
+              <lable>출판사</lable>
+              <input type="text" id="addpublisher" />
+            </p>
+            <p>
+              <lable>출판일</lable>
+              <input type="text" id="adddate" />
+            </p>
+            <p>
+              <lable>가격</lable>
+              <input type="text" id="addprice" />
+            </p>
+            <p>
+              <lable>요약</lable>
+              <input type="text" id="addsummary" />
+            </p>
+            <p>
+              <lable>표지</lable>
+              <input type="text" id="addphoto" />
+            </p>
+            <div class="inputbutton">
+              <button onclick="add()">추가</button>
+              <button type="reset">취소</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
